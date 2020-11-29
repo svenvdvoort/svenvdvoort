@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sven van der Voort - Developing technology</title>
+  <meta name="description" content="Sven van der Voort is a software developer interested in solving your technology needs.">
+  <meta name="author" content="Sven van der Voort">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      background-color: #202020;
+      color: white;
+      font-family: monospace;
+    }
+
+    h1 {
+      font-size: 55px;
+    }
+
+    h2 {
+      font-size: 45px;
+    }
+
+    .content {
+      position: relative;
+      box-sizing: border-box;
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    @media (min-width: 400px) {
+      .content {
+        width: 85%;
+        padding: 0;
+      }
+    }
+
+    @media (min-width: 550px) {
+      .content { width: 80%; }
+    }
+
+    .logo {
+      width: 80px;
+      height: 80px;
+      border-radius: 10px;
+      background-color: white;
+      display: block;
+      margin: 15px auto;
+    }
+
+    @media (min-width: 550px) {
+      .logo {
+        width: 120px;
+        height: 120px;
+        border-radius: 15px;
+        margin: 30px auto;
+      }
+    }
+
+    .contact-section {
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    .contact-section img {
+      width: 50px;
+      margin: 20px;
+    }
+
+    /* Animated slogan starts here */
+
+    @keyframes cursor {
+      from, to {
+        content: "_";
+      }
+      50% {
+        content: "";
+      }
+    }
+    @keyframes words {
+      from { content: ""; }
+      01%  { content: "w"; }
+      02%  { content: "wo"; }
+      03%  { content: "wor"; }
+      04%  { content: "work"; }
+      05%  { content: "works"; }
+      22%  { content: "work"; }
+      23%  { content: "wor"; }
+      24%  { content: "wo"; }
+      25%  { content: "w"; }
+      26%  { content: ""; }
+      27%  { content: "i"; }
+      28%  { content: "is"; }
+      29%  { content: "is "; }
+      30%  { content: "is p"; }
+      31%  { content: "is pr"; }
+      32%  { content: "is pri"; }
+      33%  { content: "is priv"; }
+      34%  { content: "is priva"; }
+      35%  { content: "is privat"; }
+      36%  { content: "is private"; }
+      53%  { content: "is privat"; }
+      54%  { content: "is priva"; }
+      55%  { content: "is priv"; }
+      56%  { content: "is pri"; }
+      57%  { content: "is pr"; }
+      58%  { content: "is p"; }
+      59%  { content: "is "; }
+      60%  { content: "is"; }
+      61%  { content: "i"; }
+      62%  { content: ""; }
+      63%  { content: "m"; }
+      64%  { content: "ma"; }
+      65%  { content: "mak"; }
+      66%  { content: "make"; }
+      67%  { content: "makes"; }
+      68%  { content: "makes "; }
+      69%  { content: "makes s"; }
+      70%  { content: "makes se"; }
+      71%  { content: "makes sen"; }
+      72%  { content: "makes sens"; }
+      73%  { content: "makes sense"; }
+      90%  { content: "makes sens"; }
+      91%  { content: "makes sen"; }
+      92%  { content: "makes se"; }
+      93%  { content: "makes s"; }
+      94%  { content: "makes "; }
+      95%  { content: "makes"; }
+      96%  { content: "make"; }
+      97%  { content: "mak"; }
+      98%  { content: "ma"; }
+      99%  { content: "m"; }
+      to   { content: ""; }
+    }
+
+    #animated-words::after {
+      content: "";
+      animation: words 15s infinite;
+      animation-timing-function: steps(51), step-end;
+    }
+
+    #animated-cursor::after {
+      content: "";
+      animation: cursor 1s infinite;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content">
+    <img class="logo" src="images/logo.svg" />
+
+    <div>
+      <h1>Sven van der Voort</h1>
+      <h2>Developing your technology</h2>
+      <h2><span style="color: #7CB4B8">Software</span> that <span id="animated-words"></span><span id="animated-cursor"></span>
+      </h2>
+    </div>
+
+    <div class="contact-section">
+      <!--
+        The envelope icon used below originates from the 'Font-Awesome-SVG-PNG' repository by encharm on Github (https://github.com/encharm/Font-Awesome-SVG-PNG)
+        The icon is designed by Font Awesome (https://fontawesome.com/) and licensed under CC BY 4.0.
+      -->
+      <a href="mailto:sven@svenvdvoort.nl"><img src="images/envelope.png" /></a>
+      <a href="https://github.com/svenvdvoort"><img src="images/GitHub-Mark-Light-64px.png" /></a>
+    </div>
+  </div>
+</body>
+</html>

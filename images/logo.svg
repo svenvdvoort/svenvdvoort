@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="800">
+    <!-- middle circle with V + middle line from left -->
+    <polygon points="0,360 400,360 400,440 0,440" fill="#7CB4B8" />
+    <circle cx="400" cy="400" r="150" fill="#5D576B"></circle>
+    <polygon points="300,320 360,510 440,510 500,320 440,320 400,450 360,320" fill="#F1D302" />
+
+    <!-- upper line from left + circle -->
+    <polygon points="0,310 150,310 240,200 180,140 110,230 0,230" fill="#7CB4B8" />
+    <circle cx="210" cy="170" r="45" fill="#5D576B" stroke="#7CB4B8" stroke-width="30" />
+
+    <!-- lower line from left + circle -->
+    <polygon points="0,490 180,490 320,650 480,650 480,730 290,730 150,570 0,570" fill="#7CB4B8" />
+    <circle cx="480" cy="690" r="45" fill="#5D576B" stroke="#7CB4B8" stroke-width="30" />
+
+    <!-- lower line from right + circle -->
+    <polygon points="800,430 650,430 560,540 620,600 690,510 800,510" fill="#7CB4B8" />
+    <circle cx="590" cy="570" r="45" fill="#5D576B" stroke="#7CB4B8" stroke-width="30" />
+
+    <!-- upper line from right + circle -->
+    <polygon points="800,370 650,370 560,200 620,140 700,290 800,290" fill="#7CB4B8" />
+    <circle cx="590" cy="170" r="45" fill="#5D576B" stroke="#7CB4B8" stroke-width="30" />
+
+    <!-- line from top + circle -->
+    <polygon points="360,0 360,150 440,150 440,0" fill="#7CB4B8" />
+    <circle cx="400" cy="150" r="45" fill="#5D576B" stroke="#7CB4B8" stroke-width="30" />
+</svg>
